@@ -1,5 +1,6 @@
 {
-    "name": "msaaq/tiktok-php-sdk",
+    "name": "devcflynn/tiktok-php-sdk",
+    "description": "A Small PHP SDK for working with TikTok api",
     "version": "1.0.0",
     "type": "library",
     "license": "MIT",
@@ -9,12 +10,12 @@
         "tiktok-php-sdk",
         "tiktok-convention-api "
     ],
-    "homepage": "https://github.com/msaaqcom/tiktok-php-sdk",
+    "homepage": "https://github.com/devcflynn/tiktok-php-sdk",
     "authors": [
         {
-            "name": "Hussam Abd",
-            "email": "hussam@msaaq.com",
-            "homepage": "https://msaaq.com"
+            "name": "Chris Flynn",
+            "email": "cflynn@bardoproductions.com",
+            "homepage": "https://bardodev.io"
         }
     ],
     "require": {
@@ -22,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Msaaq\\TikTok\\": "src/"
+            "Devcflynn\\TikTok\\": "src/"
         }
     }
 }
